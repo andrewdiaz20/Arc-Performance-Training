@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom'
 
 function Navbar() {
     return (
-            <nav>
+            <nav className="navBarCss">
                 <ul>
                     <li>
                         <a href="/">Home</a>
@@ -12,7 +12,7 @@ function Navbar() {
                         <a href="/About">About</a>
                     </li>
                     <li>
-                        <a href="/Classes.js">Classes</a>
+                        <a href="/Classes">Classes</a>
                     </li>
                     <li>
                         <a href="/Contact">Contact</a>
