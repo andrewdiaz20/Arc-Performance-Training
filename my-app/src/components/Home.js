@@ -4,6 +4,7 @@ import Navbar from "./NavBar";
 function Home() {
     return (
         <body>
+            <img className='homeImg'src="Best-bouldering-melbourne.jpg"alt="woman climbing wall"/>
             <Navbar />
             <main>
                 <div className='homeCss'>
@@ -11,7 +12,8 @@ function Home() {
                     <p>Welcome Students!</p>
                 </div>
             </main>
-            <h1 className="ServicesCss">Services</h1>
+            <div className="ServicesCss"/>
+            <h1>Services</h1>
             <section className='homecss2'>
                 <div>
                     <h1>Upcoming Classes</h1>

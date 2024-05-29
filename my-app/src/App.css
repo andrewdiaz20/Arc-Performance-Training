@@ -32,6 +32,17 @@ a{
 
 /* <-------------------> */
 /* HOMECSS */
+.homeImg{
+  z-index: -1;
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 90vh;
+  border-bottom: 3px solid cyan;
+
+  top: 0;
+  position: absolute;
+}
 body main{
   display: flex;
   flex-wrap: wrap;
@@ -40,8 +51,8 @@ body main{
   padding-top: 40em;
 }
 .homeCss{
-  color: rgb(64, 221, 226);
-}
+  color: black
+} 
 
 body main div p{
   display: flex;
@@ -50,8 +61,12 @@ body main div p{
 }
 
 .ServicesCss{
-  margin-top: 5em;
   padding-left: 10em;
+  margin-top: auto;
+  border: 1px solid gray;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: gray;
 }
 
 .homecss2{
